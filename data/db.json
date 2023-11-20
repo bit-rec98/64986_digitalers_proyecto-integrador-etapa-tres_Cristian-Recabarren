@@ -24,7 +24,7 @@
       "hashrate": "120 TH/s",
       "algorithm": "Sha-256",
       "powerUsage": "2760 ±5%",
-      "available": "Disponible",
+      "available": true,
       "pricing": "BTC/USDT/US$"
     },
     {
@@ -37,7 +37,7 @@
       "hashrate": "3680 MH/s",
       "algorithm": "Ethash",
       "powerUsage": "2200 ±10%",
-      "available": "Disponible",
+      "available": true,
       "pricing": "BTC/USDT/US$"
     },
     {
@@ -50,7 +50,7 @@
       "hashrate": "184 TH/s ±3%",
       "algorithm": "Sha-256",
       "powerUsage": "5428 ±5%",
-      "available": "Disponible",
+      "available": true,
       "pricing": "BTC/USDT/US$"
     },
     {
@@ -63,7 +63,7 @@
       "hashrate": "257 TH/s ±3%",
       "algorithm": "Sha-256",
       "powerUsage": "5345 ±5%",
-      "available": "Disponible",
+      "available": true,
       "pricing": "BTC/USDT/US$"
     },
     {
@@ -76,7 +76,7 @@
       "hashrate": "1770 H/s ±3%",
       "algorithm": "X11",
       "powerUsage": "2839 ±10%",
-      "available": "Disponible",
+      "available": true,
       "pricing": "BTC/USDT/US$"
     }
   ],
@@ -91,7 +91,7 @@
       "hashrate": "155 H/s",
       "algorithm": "Zhash - Ethash4G - KawPow",
       "powerUsage": "290 ±10%",
-      "available": null,
+      "available": true,
       "pricing": "BTC/USDT/US$"
     },
     {
@@ -104,7 +104,7 @@
       "hashrate": "40 H/s",
       "algorithm": "Zhash - Ethash4G - KawPow",
       "powerUsage": "70 ±10%",
-      "available": "Disponible",
+      "available": true,
       "pricing": "BTC/USDT/US$"
     },
     {
@@ -117,7 +117,7 @@
       "hashrate": "155 H/s",
       "algorithm": "Zhash - Ethash4G - KawPow",
       "powerUsage": "290 ±10%",
-      "available": "Disponible",
+      "available": true,
       "pricing": "BTC/USDT/US$"
     },
     {
@@ -130,10 +130,20 @@
       "hashrate": "94 H/s",
       "algorithm": "Zhash - Ethash4G - KawPow",
       "powerUsage": "180 ±10%",
-      "available": "Disponible",
+      "available": true,
       "pricing": "BTC/USDT/US$"
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "name": "Admin",
+      "lastName": "System",
+      "user": "SysAdmin",
+      "address": "Calle 123",
+      "userEmail": "admin@system.com",
+      "password": "12345_$Abc",
+      "confirmPassword": "12345_$Abc",
+      "id": "1"
+    }],
   "orders": []
 }
