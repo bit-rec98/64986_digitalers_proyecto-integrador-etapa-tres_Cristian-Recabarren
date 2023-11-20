@@ -134,17 +134,5 @@
       "pricing": "BTC/USDT/US$"
     }
   ],
-  "users": [
-    {
-      "id": 1,
-      "name": "Admin",
-      "lastName": "System",
-      "user": "SysAdmin",
-      "address": "Calle 123",
-      "userEmail": "admin@email.com",
-      "password": "12345_$Abc",
-      "confirmPassword": "12345_$Abc"
-    }
-  ],
   "orders": []
 }
