@@ -1,0 +1,167 @@
+{
+  "asics": [
+    {
+      "id": 1,
+      "image": "Bitmain-antminer-S19J-XP.jpg",
+      "name": "Bitmain Antminer",
+      "model": "S19J XP",
+      "currency": "Bitcoin",
+      "hashrate": "151 TH/s",
+      "algorithm": "Sha-256",
+      "powerUsage": "3247 ±10%",
+      "price": 4983,
+      "available": true,
+      "type": "Asic",
+      "pricing": "BTC/USDT/US$"
+    },
+    {
+      "id": 2,
+      "image": "Bitmain-antminer-S19K-Pro.jpg",
+      "name": "Bitmain Antminer",
+      "model": "S19K Pro",
+      "price": "2520",
+      "currency": "Bitcoin / Bitcoin Cash",
+      "hashrate": "120 TH/s",
+      "algorithm": "Sha-256",
+      "powerUsage": "2760 ±5%",
+      "available": "Disponible",
+      "pricing": "BTC/USDT/US$"
+    },
+    {
+      "id": 3,
+      "image": "ETC-E9.jpg",
+      "name": "ETC",
+      "model": "E9 Pro",
+      "price": "3500",
+      "currency": "Ethereum Classic",
+      "hashrate": "3680 MH/s",
+      "algorithm": "Ethash",
+      "powerUsage": "2200 ±10%",
+      "available": "Disponible",
+      "pricing": "BTC/USDT/US$"
+    },
+    {
+      "id": 4,
+      "image": "S19XP-Hydro_1.jpg",
+      "name": "Bitmain Antminer",
+      "model": "S19 Pro Hydro",
+      "price": "2945",
+      "currency": "Bitcoin / Bitcoin Cash",
+      "hashrate": "184 TH/s ±3%",
+      "algorithm": "Sha-256",
+      "powerUsage": "5428 ±5%",
+      "available": "Disponible",
+      "pricing": "BTC/USDT/US$"
+    },
+    {
+      "id": 5,
+      "image": "S19XP-Hydro_2.jpg",
+      "name": "Bitmain Antminer",
+      "model": "S19 XP Hydro",
+      "price": "8450",
+      "currency": "Bitcoin / Bitcoin Cash",
+      "hashrate": "257 TH/s ±3%",
+      "algorithm": "Sha-256",
+      "powerUsage": "5345 ±5%",
+      "available": "Disponible",
+      "pricing": "BTC/USDT/US$"
+    },
+    {
+      "id": 6,
+      "image": "Bitmain-Dash-Miner-D9.jpg",
+      "name": "Bitmain Dash Miner",
+      "model": "D9",
+      "price": "8398",
+      "currency": "Dash",
+      "hashrate": "1770 H/s ±3%",
+      "algorithm": "X11",
+      "powerUsage": "2839 ±10%",
+      "available": "Disponible",
+      "pricing": "BTC/USDT/US$"
+    }
+  ],
+  "gpus": [
+    {
+      "id": 1,
+      "image": "evga-rtx-3090.webp",
+      "name": "Nvidia GeForce",
+      "model": "EVGA RTX 3090 24GB",
+      "price": "2440",
+      "currency": "Ethereum Classic / Ravencoin / Zcash",
+      "hashrate": "155 H/s",
+      "algorithm": "Zhash - Ethash4G - KawPow",
+      "powerUsage": "290 ±10%",
+      "available": null,
+      "pricing": "BTC/USDT/US$"
+    },
+    {
+      "id": 2,
+      "image": "sapphire-pulse-rx-6500-xt.webp",
+      "name": "Sapphire Pulse ",
+      "model": "RX 6500 XT",
+      "price": "382",
+      "currency": "Ethereum Classic / Ravencoin / Zcash",
+      "hashrate": "40 H/s",
+      "algorithm": "Zhash - Ethash4G - KawPow",
+      "powerUsage": "70 ±10%",
+      "available": "Disponible",
+      "pricing": "BTC/USDT/US$"
+    },
+    {
+      "id": 3,
+      "image": "evga-rtx-3090.webp",
+      "name": "Nvidia GeForce",
+      "model": "EVGA RTX 3090 24GB",
+      "price": "2440",
+      "currency": "Ethereum Classic / Ravencoin / Zcash",
+      "hashrate": "155 H/s",
+      "algorithm": "Zhash - Ethash4G - KawPow",
+      "powerUsage": "290 ±10%",
+      "available": "Disponible",
+      "pricing": "BTC/USDT/US$"
+    },
+    {
+      "id": 4,
+      "image": "msi-gaming-trio-rx-7900-xt.webp",
+      "name": "AMD MSI Gaming Trio Classic",
+      "model": "RTX 7900 XTX 24GB",
+      "price": "1810",
+      "currency": "Ethereum Classic / Ravencoin / Zcash",
+      "hashrate": "94 H/s",
+      "algorithm": "Zhash - Ethash4G - KawPow",
+      "powerUsage": "180 ±10%",
+      "available": "Disponible",
+      "pricing": "BTC/USDT/US$"
+    }
+  ],
+  "users": [
+    {
+      "id": 2,
+      "name": "User",
+      "lastName": "Client",
+      "user": "client_1",
+      "address": "Calle 123",
+      "userEmail": "client@email.com",
+      "password": "12345_$Abc",
+      "confirmPassword": "12345_$Abc"
+    }
+  ],
+  "orders": [
+    [
+      {
+        "id": 2,
+        "image": "Bitmain-antminer-S19K-Pro.jpg",
+        "name": "Bitmain Antminer",
+        "model": "S19K Pro",
+        "price": "2520",
+        "currency": "Bitcoin / Bitcoin Cash",
+        "hashrate": "120 TH/s",
+        "algorithm": "Sha-256",
+        "powerUsage": "2760 ±5%",
+        "available": "Disponible",
+        "pricing": "BTC/USDT/US$",
+        "amount": 1
+      }
+    ]
+  ]
+}
