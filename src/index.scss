@@ -1,0 +1,139 @@
+@import 'bootstrap';
+@import 'atropos/scss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+};
+
+* {
+    font-family: 'Inter', sans-serif;
+    // font-weight: 300
+};
+
+body{
+    font-size: 16px
+}
+#logoImg{
+    width: 6rem;
+}
+
+#root{
+    background: linear-gradient(to bottom right, #f5f5f5, #444444);
+}
+
+#themeModeBtn{
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-radius: 10px;
+}
+#themeModeBtn:hover{
+    border: 1px solid #333333;
+    box-shadow: 0px 0px 10px #555555;
+    background-color: transparent;
+    transition: all .3s;
+}
+
+#cartListBtn{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: transparent;
+}
+#cartListBtn:hover{
+    border: 1px solid #333333;
+    box-shadow: 0px 0px 10px #555555;
+    background-color: transparent;
+    transition: all .3s;
+}
+
+#logInBtn{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: transparent;
+}
+#logInBtn:hover{
+    border: 1px solid #333333;
+    box-shadow: 0px 0px 10px #555555;
+    background-color: transparent;
+    transition: all .3s;
+}
+
+#logOutBtn{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: transparent;
+}
+#logOutBtn:hover{
+    border: 1px solid #333333;
+    box-shadow: 0px 0px 10px #555555;
+    background-color: transparent;
+    transition: all .3s;
+}
+
+.externalResources:hover{
+    box-shadow: 0px 0px 8px #f5f5f5;
+    transition: all .3s;
+}
+
+.atroposElement:hover{
+    box-shadow: 0px 0px 30px #f5f5f5;
+    transition: all .3s;
+}
+
+#sendFormItem{
+    background-color: #F85E00;
+    border: 1px solid #222222;
+}
+#sendFormItem:hover{
+    background-color: transparent;
+    border: 1px solid #F85E00;
+}
+
+.dataServices:hover {
+    box-shadow: 0px 0px 10px #f5f5f5;
+    transition: all .3s;
+    cursor: auto;
+}
+
+#loginSessionBtn, #processCartList, #registerUserBtn, #submitRegisterButton, .submitFormBtn, .addProductBtn{
+    background-color: #F85E00;
+    border: 1px solid transparent;
+}
+#loginSessionBtn:hover, #processCartList:hover, #registerUserBtn:hover, #submitRegisterButton:hover, .submitFormBtn:hover, .addProductBtn:hover{
+    background-color: #F85E00;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 10px #F85E00;
+    transition: all .3s;
+}
+
+.deleteProduct, .deleteCartProduct, .cleanCart{
+    background-color: #dc3545;
+    border: 1px solid transparent;
+}
+.deleteProduct:hover, .deleteCartProduct:hover, .cleanCart:hover{
+    background-color: #dc3545;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 10px #dc3545;
+    transition: all .3s;
+}
+
+#processCart{
+    background-color: #198754;
+    border: 1px solid transparent;
+}
+#processCart:hover{
+    background-color: #198754;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 10px #198754;
+    transition: all .3s;
+}
+
+#logInPasswordVisibility, #registerPasswordVisibility{
+    cursor: pointer;
+}
+
+.resourceLink{
+    color: #333333;
+}
