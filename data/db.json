@@ -135,33 +135,7 @@
     }
   ],
   "users": [
-    {
-      "id": 2,
-      "name": "User",
-      "lastName": "Client",
-      "user": "client_1",
-      "address": "Calle 123",
-      "userEmail": "client@email.com",
-      "password": "12345_$Abc",
-      "confirmPassword": "12345_$Abc"
-    }
   ],
   "orders": [
-    [
-      {
-        "id": 2,
-        "image": "Bitmain-antminer-S19K-Pro.jpg",
-        "name": "Bitmain Antminer",
-        "model": "S19K Pro",
-        "price": "2520",
-        "currency": "Bitcoin / Bitcoin Cash",
-        "hashrate": "120 TH/s",
-        "algorithm": "Sha-256",
-        "powerUsage": "2760 ±5%",
-        "available": "Disponible",
-        "pricing": "BTC/USDT/US$",
-        "amount": 1
-      }
-    ]
   ]
 }
